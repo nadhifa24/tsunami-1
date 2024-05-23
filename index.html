@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsunami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tsunami</div>
+            <div class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#causes">Causes</a>
+                <a href="#events">Events</a>
+                <a href="#safety">Safety</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="hero-section">
+      <h1>Understanding Tsunamis</h1>
+      <p>Learn about the causes, effects, and safety measures of tsunamis.</p>
+    </section>
+<main>
+    
+    <section id="about" class="content-section">
+        <h2>About Tsunamis</h2>
+        <p>A tsunami is a series of waves caused by the displacement of a large volume of water, typically in an ocean or a large lake.<br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti et sint quia reiciendis, libero doloribus? Tempore doloribus similique reprehenderit nisi nam doloremque quod, esse dignissimos obcaecati modi quam unde, iusto at dolor sed quae! Natus accusamus illum possimus, quasi fugit necessitatibus nostrum id cupiditate ipsam neque eveniet recusandae, dolores quisquam inventore laboriosam iusto tempore provident nihil temporibus. Consectetur nisi dolore ea animi consequatur officiis assumenda illo repellat incidunt odit accusamus ex aliquid fugit pariatur facere repudiandae, consequuntur aliquam atque nesciunt blanditiis. Ab quibusdam officia veritatis mollitia velit cupiditate sed reprehenderit doloremque non a optio unde nulla, voluptatum enim vel itaque.</p>
+    </section>
+
+    <section id="causes" class="content-section">
+        <h2>Causes of Tsunamis</h2>
+        <p>Tsunamis can be caused by undersea earthquakes, volcanic eruptions, or landslides into the sea.<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita provident obcaecati dolor illum. Repudiandae incidunt rerum est facilis aliquam quod eum possimus non consectetur vero illo commodi illum, provident modi odio! Facilis alias aut libero tempora, repudiandae id quasi nemo sunt officia dolorum omnis eveniet architecto labore. Officia accusantium quibusdam facilis doloribus quisquam molestiae maiores ducimus, dicta veniam, autem consectetur tempore quam explicabo excepturi aspernatur, alias odit ipsam voluptatem ut. Debitis illum soluta veritatis quis maxime, culpa laboriosam praesentium? Quaerat, dignissimos! Esse corrupti facere aliquid hic aperiam aut placeat, nisi dolorem voluptate ab nam amet nemo, asperiores dolore ad.</p>
+    </section>
+
+    <section id="events" class="content-section">
+        <h2>Notable Tsunami Events</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="Assets/tsunami-aceh.jfif" alt="Tsunami Event 1">
+                <div class="card-content">
+                    <h3>2004 Indian Ocean Tsunami</h3>
+                    <p>The 2004 Indian Ocean earthquake and tsunami occurred on December 26, causing widespread devastation across multiple countries.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/tsunami-jepang.jfif" alt="Tsunami Event 2">
+                <div class="card-content">
+                    <h3>2011 Tōhoku Tsunami</h3>
+                    <p>The 2011 earthquake off the Pacific coast of Tōhoku was a magnitude 9.0 undersea megathrust earthquake off the coast of Japan.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/tsunami-palu.jfif" alt="Tsunami Event 3">
+                <div class="card-content">
+                    <h3>1960 Valdivia Tsunami</h3>
+                    <p>The 1960 Valdivia earthquake or Great Chilean earthquake on May 22 is the most powerful earthquake ever recorded, leading to a massive tsunami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="safety" class="content-section">
+        <h2>Safety Measures</h2>
+        <p>To stay safe during a tsunami, move to higher ground, follow evacuation routes, and listen to emergency services.</p>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Our Team</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="Assets/team-member1.jfif" alt="Team Member 1">
+                <div class="card-content">
+                    <h3>Nadhifa Rua</h3>
+                    <p>Project Manager</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/nesya.jfif" alt="Team Member 2">
+                <div class="card-content">
+                    <h3>Nesya</h3>
+                    <p>Lead Researcher</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/team-member3.jfif" alt="Team Member 3">
+                <div class="card-content">
+                    <h3>Rintan</h3>
+                    <p>Data Analyst</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/team-member3.jfif" alt="Team Member 3">
+                <div class="card-content">
+                    <h3>Rizka</h3>
+                    <p>Data Analyst</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Tsunami Awareness. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+       });
+      });
+
+    </script>
+</body>
+</html>
